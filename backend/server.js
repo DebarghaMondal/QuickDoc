@@ -17,6 +17,7 @@ connectCloudinary()
 
 //middlewares
 app.use(express.json())
+const cors = require("cors");
 app.use(cors())
 
 // api endpoint
